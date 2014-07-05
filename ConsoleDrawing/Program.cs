@@ -8,13 +8,12 @@ namespace ConsoleImage
     {
         static void Main(string[] args)
         {
-            Image Picture = Image.FromFile(@"D:\Photos\64243_590868307595057_184274012_n.JPG");
+            Image Picture = Image.FromFile(@"96px-Core_Image_icon.png");
             Console.Write("Write height:");
             String StringDefaultSize = Console.ReadLine();
             int DefaultSize;
             int Divider;
             int.TryParse(StringDefaultSize, out DefaultSize);
-            Console.WriteLine(DefaultSize);
             if (DefaultSize < Picture.Height)
             {
                 Divider = Picture.Height / DefaultSize;

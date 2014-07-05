@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Text;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 
@@ -8,7 +11,7 @@ namespace ConsoleImage
     {
         static void Main(string[] args)
         {
-
+            String PictureOutput = "";
             Console.WriteLine("Put the picture in the same folder as the exe and write picture name with the extention:");
             String NAME = Console.ReadLine();
             Image Picture = Image.FromFile(NAME);
@@ -45,11 +48,15 @@ namespace ConsoleImage
                     }
                     Gray = Gray / br;
                     Index = (Gray * (Chars.Length - 1)) / 256;
+                    PictureOutput = PictureOutput + Chars[Index];
                     Console.Write(Chars[Index]);
+
                 }
+                PictureOutput = PictureOutput + "\n";
                 Console.Write('\n');
                 
             }
+            System.IO.File.WriteAllText(@"path.txt", PictureOutput);
             Console.Read();
         }
     }

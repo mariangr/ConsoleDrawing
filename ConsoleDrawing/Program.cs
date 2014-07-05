@@ -8,8 +8,11 @@ namespace ConsoleImage
     {
         static void Main(string[] args)
         {
-            Image Picture = Image.FromFile(@"96px-Core_Image_icon.png");
-            Console.Write("Write height:");
+
+            Console.WriteLine("Put the picture in the same folder as the exe and write picture name with the extention:");
+            String NAME = Console.ReadLine();
+            Image Picture = Image.FromFile(NAME);
+            Console.WriteLine("Write height:");
             String StringDefaultSize = Console.ReadLine();
             int DefaultSize;
             int Divider;

@@ -1,0 +1,6 @@
+C:\Users\Hueco Mundo\Documents\GitHub\ConsoleDrawing\ConsoleDrawing\bin\Debug\ConsoleDrawing.exe.config
+C:\Users\Hueco Mundo\Documents\GitHub\ConsoleDrawing\ConsoleDrawing\obj\Debug\ConsoleDrawing.csprojResolveAssemblyReference.cache
+C:\Users\Hueco Mundo\Documents\GitHub\ConsoleDrawing\ConsoleDrawing\bin\Debug\ConsoleDrawing.exe
+C:\Users\Hueco Mundo\Documents\GitHub\ConsoleDrawing\ConsoleDrawing\bin\Debug\ConsoleDrawing.pdb
+C:\Users\Hueco Mundo\Documents\GitHub\ConsoleDrawing\ConsoleDrawing\obj\Debug\ConsoleDrawing.exe
+C:\Users\Hueco Mundo\Documents\GitHub\ConsoleDrawing\ConsoleDrawing\obj\Debug\ConsoleDrawing.pdb
